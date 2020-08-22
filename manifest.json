@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+
+	"name": "TikTok Sidebar",
+	"description": "TikTok for Opera Sidebar.",
+	"version": "1.2",
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": ["tabs"],
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "TikTok Sidebar"
+	},
+	"sidebar_action": {
+	// Required
+	"default_icon": "icon.png",
+	// Optional; shown in tooltip
+	"default_title": "TikTok",
+	// Required
+	"default_panel": "panel.html"
+	}
+}
